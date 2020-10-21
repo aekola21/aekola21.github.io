@@ -1,0 +1,47 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #white;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+    background-color: #e9692c;
+}
+
+nav {}
+
+section {}
+
+#boxbad {
+    background-color: #ed8756;
+}
+
+#boxgood1 {
+    background-color: #ed8756;
+}
+
+#boxgood2 {
+    background-color: #f2a580;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: monospace;
+}
+
+p {
+    padding: 10px 70px 30px 70px;
+    text-align: center;
+}
+
+footer {}
