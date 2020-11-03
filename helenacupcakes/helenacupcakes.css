@@ -1,0 +1,175 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+    font-family: Verdana, Geneva, sans-serif
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 70%;
+}
+
+header,
+nav,
+footer {
+    padding: 10px;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: #0EC8C7;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 210%;
+    margin: 0;
+}
+
+article {
+    width: 73%;
+    padding: 2%;
+    float: right;
+    background-color: white;
+}
+
+.buy {
+    float: right;
+    width: 40%;
+    margin: 0 0 20px 20px;
+}
+
+section {
+    overflow: auto;
+    background-color: #EC3632;
+}
+
+aside {
+
+    float: left;
+    padding: 3%;
+    width: 13%;
+}
+
+aside ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+aside li {
+    margin: 20px 0px;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #0EC8C7;
+    font-size: 11px;
+    padding: 20px 10px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    padding: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+
+footer li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+#copyright {
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    body {
+        background-color: #CCCCCC;
+    }
+
+    #wrap {
+        width: 98%;
+    }
+
+    nav a {
+        display: block;
+        padding: 0;
+        width: 90%;
+    }
+
+    nav ul,
+    nav li {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    aside,
+    article {
+        float: none;
+        width: 96%;
+    }
+
+    section {
+        overflow: auto;
+        padding: 0;
+    }
+
+    aside {
+        text-align: center;
+        padding: 0 0 0 0;
+    }
+
+    .buy {
+        float: none;
+        margin: 0;
+        width: 98%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+}
