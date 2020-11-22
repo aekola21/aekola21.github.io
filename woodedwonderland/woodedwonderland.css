@@ -1,0 +1,391 @@
+html {
+    /*For Sticky Footer*/
+    height: 100%;
+}
+
+body {
+    /*For Sticky Footer*/
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    /*For Sticky Footer*/
+    flex: 0 0 auto;
+}
+
+header img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #848c7f;
+    font-family: 'Homemade Apple', cursive;
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    color: #848c7f;
+}
+
+section {}
+
+footer {
+    background-color: #c0cece;
+    color: white;
+    font-family: font-family: 'Antic Didone', serif;
+    font-size: 15px;
+    padding: 3px;
+    text-align: center;
+    margin-top: 40px;
+    /*For Sticky Footer*/
+    flex: 0 0 auto;
+}
+
+.maincontent {
+    /*For Sticky Footer*/
+    flex: 1 0 auto;
+}
+
+/* Home Page */
+
+#homeimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.homeheading {
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 25px;
+}
+
+.homesection1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.homesection2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#homesection2image {
+    width: 40%;
+    float: left;
+    padding-right: 20px;
+}
+
+.homesection3 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#homesection3image {
+    width: 40%;
+    float: left;
+    padding-right: 20px;
+}
+
+.homesection4 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-right: 20px;
+}
+
+#homesection4image {
+    width: 40%;
+    float: left;
+    padding-right: 20px;
+}
+
+/* About Page */
+
+.aboutsection1 {
+    width: 100%;
+    height: 360px;
+}
+
+#aboutimg {
+    width: 50%;
+    float: right;
+    padding: 10px;
+}
+
+.aboutheader {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.about {
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.aboutsection2 {
+    width: 100%;
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.left2 {
+    width: 48%;
+    float: left;
+}
+
+
+.right2 {
+    width: 48%;
+    float: right;
+}
+
+#aboutflower {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.aboutwoodflowersheader {
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.aboutwoodflowers {
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.aboutsection3 {
+    width: 100%;
+    height: 360px;
+    padding-top: 20px;
+}
+
+#aboutme {
+    width: 45%;
+    float: right;
+    padding: 10px;
+}
+
+.aboutmeheader {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.aboutme {
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Gallery Page*/
+
+.grid {
+    display: block;
+    position: relative;
+    padding-top: 40px;
+}
+
+.grid--column {
+    display: block;
+    position: relative;
+    width: 33.333333%;
+    width: calc(100% / 3);
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid--column:first-child {
+    padding-right: 15px;
+}
+
+.grid--column ~ .grid--column {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.grid--column:last-of-type {
+    padding-right: 0;
+}
+
+@media (max-width: 991px) {
+    .grid--column {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .grid--column {
+        width: 100%;
+    }
+}
+
+#timelapse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Services Page */
+
+#servicebridal {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicebridesmaid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#serviceboutonnieres {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicecorsages {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.servicessize {
+    font-family: font-family: 'Antic Didone', serif;
+    font-size: 150%;
+    padding-right: 125px;
+    text-align: left;
+}
+
+.serviceapprox {
+    font-family: font-family: 'Antic Didone', serif;
+    font-size: 85%;
+    text-align: left;
+}
+
+.serviceprice {
+    font-family: font-family: 'Antic Didone', serif;
+    font-size: 150%;
+    padding-left: 125px;
+    text-alight: right;
+}
+
+/* Contact Page */
+
+#inquiry {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact {
+    text-align: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
